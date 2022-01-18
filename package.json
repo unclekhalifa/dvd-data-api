@@ -1,0 +1,30 @@
+{
+  "name": "dvd-data-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unclekhalifa/dvd-data-api.git"
+  },
+  "author": "Khalifa Idris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unclekhalifa/dvd-data-api/issues"
+  },
+  "homepage": "https://github.com/unclekhalifa/dvd-data-api#readme",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "nodemon": "^2.0.15"
+  }
+}
